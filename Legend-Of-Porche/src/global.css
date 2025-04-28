@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-meaculpa: "Mea Culpa", sans-serif; 
+  }
+
+  /* Hero Section Styles */
+section {
+  position: relative; /* Make sure the hero section is the container for absolute positioning */
+}
+
+#porsche-text {
+  position: relative; /* Initially, we set it to relative */
+}
+.hero-overlay { /* nothing necessary here—you’re only animating opacity */ }
+.hero-image  { /* background-image comes from inline style */ }
+.porsche-text { /* initial opacity: 0; transform origin center */ }
