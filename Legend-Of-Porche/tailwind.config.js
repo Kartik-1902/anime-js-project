@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         meaculpa: ['"Mea Culpa"', 'cursive'],
+        orbitron: ['"Orbitron"', 'sans-serif'],
       },
     },
   },
